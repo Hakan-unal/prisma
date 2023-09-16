@@ -1,0 +1,30 @@
+{
+  "name": "prisma-demo",
+  "version": "1.0.0",
+  "description": "follow the white rabbit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hakan-unal/prisma.git"
+  },
+  "keywords": [
+    "prisma"
+  ],
+  "author": "hakan ünal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hakan-unal/prisma/issues"
+  },
+  "homepage": "https://github.com/Hakan-unal/prisma#readme",
+  "dependencies": {
+    "@prisma/client": "5.3.1",
+    "@types/node": "^20.6.2",
+    "prisma": "^5.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
